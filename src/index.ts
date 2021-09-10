@@ -1,6 +1,8 @@
 /*
-* micro:bit Web Bluetooth
-* Copyright (c) 2019 Rob Moran
+* Doodlebot Web Bluetooth
+* Built on top of 
+* - micro:bit Web Bluetooth
+* - Copyright (c) 2019 Rob Moran
 *
 * The MIT License (MIT)
 *
@@ -74,11 +76,11 @@ class ServiceBuilder {
     }
 }
 
-export const requestMicrobit = async (bluetooth: Bluetooth): Promise<BluetoothDevice | undefined> => {
+export const requestRobot = async (bluetooth: Bluetooth): Promise<BluetoothDevice | undefined> => {
     const device = await bluetooth.requestDevice({
         filters: [
             {
-                namePrefix: "BBC micro:bit"
+                namePrefix: "Bluefruit52"
             }
         ],
         optionalServices: [

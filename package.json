@@ -1,20 +1,18 @@
 {
-  "name": "microbit-web-bluetooth",
+  "name": "doodlebot-web-bluetooth",
   "version": "0.6.0",
-  "description": "Web Bluetooth library for micro:bit",
-  "homepage": "https://github.com/thegecko/microbit-web-bluetooth",
+  "description": "Web Bluetooth library for doodlebot",
   "license": "MIT",
   "main": "dist/microbit.umd.js",
   "module": "dist/microbit.esm.js",
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thegecko/microbit-web-bluetooth.git"
+    "url": "git+https://github.com/randi-c-dubs/doodlebot-web-bluetooth"
   },
-  "author": "Rob Moran <rob@thegecko.org>",
+  "author": "Randi Williams",
   "keywords": [
-    "micro:bit",
-    "microbit",
+    "doodlebot",
     "web-bluetooth",
     "ble",
     "bluetooth"
